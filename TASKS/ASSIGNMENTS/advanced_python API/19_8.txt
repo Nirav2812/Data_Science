@@ -1,0 +1,48 @@
+API = application programming interface
+you - user
+waiter - API
+kitchen - server
+burger - data
+
+Rest API - http protocol
+methods
+1. Get - read the data
+2. Post - create the data 
+3. Put - update the data
+4. Delete - delete the data
+
+CRUD - create , read , update , Delete
+
+| Code    | Meaning                         | Simple explanation                                       |
+| ------- | ------------------------------- | -------------------------------------------------------- |
+| **200** | OK                              | Request was successful                                   |
+| **201** | Created                         | Something was successfully created                       |
+| **202** | Accepted                        | Request received, but processing isn't finished          |
+| **204** | No Content                      | Successful, but there is nothing to return               |
+| **301** | Moved Permanently               | Page permanently moved to another URL                    |
+| **302** | Found / Temporary Redirect      | Temporarily redirected somewhere else                    |
+| **304** | Not Modified                    | Browser can use its cached version                       |
+| **400** | Bad Request                     | You are sending something wrong/invalid                  |
+| **401** | Unauthorized                    | You need to log in/authenticate                          |
+| **402** | Payment Required                | Payment is required *(rarely used)*                      |
+| **403** | Forbidden                       | Access denied — you don't have permission                |
+| **404** | Not Found                       | The requested page/data doesn't exist                    |
+| **405** | Method Not Allowed              | You're using the wrong HTTP method                       |
+| **406** | Not Acceptable                  | Server can't provide the requested format                |
+| **408** | Request Timeout                 | Server waited too long for your request                  |
+| **409** | Conflict                        | Request conflicts with existing data/state               |
+| **410** | Gone                            | Resource existed but has been permanently removed        |
+| **413** | Content Too Large               | Uploaded/requested data is too large                     |
+| **415** | Unsupported Media Type          | Server doesn't support the submitted file/data format    |
+| **422** | Unprocessable Content           | Request format is valid, but the data itself is invalid  |
+| **429** | Too Many Requests               | You're sending too many requests too quickly             |
+| **500** | Internal Server Error           | Something went wrong on the server                       |
+| **501** | Not Implemented                 | Server doesn't support this functionality                |
+| **502** | Bad Gateway                     | Server received a bad response from another server       |
+| **503** | Service Unavailable             | Server is temporarily unavailable/overloaded             |
+| **504** | Gateway Timeout                 | Server didn't get a response in time from another server |
+| **505** | HTTP Version Not Supported      | Server doesn't support the HTTP version                  |
+| **507** | Insufficient Storage            | Server doesn't have enough storage                       |
+| **508** | Loop Detected                   | Server detected an infinite processing loop              |
+| **511** | Network Authentication Required | You need to authenticate with the network                |
+
